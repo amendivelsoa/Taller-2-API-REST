@@ -18,7 +18,7 @@ class Huron(Resource):
 
 class BoaConstrictor(Resource):
     def get(self):
-        return {'accion': 'Constricción'}
+        return {'accion': 'ssss'}
 
 api.add_resource(Gato, '/gato')
 api.add_resource(Perro, '/perro')
